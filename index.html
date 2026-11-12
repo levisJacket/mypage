@@ -1,12 +1,23 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>John | Systems & Embedded</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+ <style>
+   body { background-color: #0d1117; margin: 0; padding: 2rem 1rem; }
+   .markdown-body { max-width: 800px; margin: 0 auto; background: transparent; }
+ </style>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+ <article id="content" class="markdown-body">Loading...</article>
+ <script>
+   fetch('index.md')
+     .then(r => r.text())
+     .then(md => document.getElementById('content').innerHTML = marked.parse(md));
+ </script>
 </body>
 </html>
-
