@@ -6,7 +6,7 @@ It's also to encourage myself to `commit` more.
 
 Most of the files i write about are in my Github repo, feel free to [check it out](https://github.com/levisJacket).
 
-Was built at 26/11/12; progress before it might have brief notes.
+Was built at 26/11/12; progress before it might only have brief notes.
 
 # [HakEngine](https://github.com/levisJacket/HakEngine)
 
@@ -18,15 +18,16 @@ Not in-progress much for now, since I started focusing on the latter.
 - **GLFW** for Windowing
 - **OpenGL** for graphics
 - parses `.stl` for meshes, `.png` for textures
-- lighting 
+- Lighting 
 - Integrated **Jolt Physics** (tried to build one from scratch; soon realized i'm not a genius)
 - simple input processing
 
+- Shadowing (TODO)
 - UI (TODO)
 - audio (TODO)
 
 
-# MyOS
+# [HakOS](https://github.com/levisJacket/HakOS)
 
 To dabble in the low level arts. 
 
