@@ -31,7 +31,11 @@ Not in-progress much for now, since I started focusing on the latter.
 
 To dabble in the low level arts. 
 
+Single-cored for now
+
 Final goal is to integrate BASH.
+
+
 
 - bootloader
 - memory size scan
@@ -45,9 +49,8 @@ Final goal is to integrate BASH.
 - scheduling on int 32
 - keyboard callbacks & keyboard buffer
 
-- shutting down processes (TODO)
+- shutting down processes ~~(TODO)~~ Done
+
 - file system (TODO)
 
 - (much work)
-
-
